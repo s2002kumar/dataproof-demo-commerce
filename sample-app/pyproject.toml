@@ -1,0 +1,16 @@
+[project]
+name = "commerce-sample-app"
+version = "0.1.0"
+description = "Commerce Orders & Refunds sample application, the application under review"
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.16",
+    "fastapi>=0.115",
+    "psycopg[binary]>=3.2",
+    "sqlalchemy>=2.0",
+    "uvicorn>=0.32",
+]
+
+[tool.uv]
+package = false
